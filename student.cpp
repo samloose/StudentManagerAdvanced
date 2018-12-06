@@ -6,7 +6,7 @@ student::student()
 {
     first = "";
     last = "";
-    grades.push_back("");
+    grades.push_back(0);
 }
 void student::setName(std::string firstName, std::string lastName)
 {
@@ -28,6 +28,7 @@ double student::getScore()
 {
     double average = 0;
     int count = 0;
+    grades.erase(grades.begin(),grades.begin()+1);
     for(int i=0; i<grades.size(); i++)
     {
         average = average + grades[i];
