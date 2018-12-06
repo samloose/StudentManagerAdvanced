@@ -28,7 +28,7 @@ double student::getScore()
 {
     double average = 0;
     int count = 0;
-    grades.erase(grades.begin(),grades.begin()+1);
+    grades.erase(grades.begin());
     for(int i=0; i<grades.size(); i++)
     {
         average = average + grades[i];
