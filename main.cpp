@@ -22,7 +22,7 @@ int main()
         cin>>grade;
         if( grade != -1 )
         {
-            person.addGrade(grade);
+            person.getGrade(grade);
         }
     }while( grade != -1 );
     
