@@ -19,7 +19,7 @@ std::string student::fullName()
     name = first + " " + last;
     return name;
 }
-void student::getGrade(double grade)
+void student::addGrade(double grade)
 {
     grades.push_back(grade);
 }
