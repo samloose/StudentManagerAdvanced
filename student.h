@@ -14,7 +14,7 @@ public:
     student();
     void setName(std::string, std::string);
     std::string fullName();
-    void getGrade(double);
+    void addGrade(double);
     double getScore();
 };
 
