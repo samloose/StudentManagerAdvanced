@@ -6,7 +6,7 @@ student::student()
 {
     first = "";
     last = "";
-    grades.push_back(0);
+    grades.push_back("");
 }
 void student::setName(std::string firstName, std::string lastName)
 {
